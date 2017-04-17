@@ -12,7 +12,17 @@ import { SliderComponent } from './slider/slider.component';
 
 // Google maps
 import { AgmCoreModule } from 'angular2-google-maps/core';
+// Firebase
+import { AngularFireModule } from 'angularfire2';
 
+export const firebaseConfig = {
+  apiKey: 'AIzaSyCZVjGfLAc_Wy5ecxZ3FS9s_os2Q9FtltQ',
+  authDomain: 'ipialesapp.firebaseapp.com',
+  databaseURL: 'https://ipialesapp.firebaseio.com',
+  projectId: 'ipialesapp',
+  storageBucket: 'ipialesapp.appspot.com',
+  messagingSenderId: '658712497572'
+};
 
 @NgModule({
   declarations: [
@@ -28,8 +38,9 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
     FormsModule,
     HttpModule,
     AgmCoreModule.forRoot({
-      apiKey: ''
-    })
+      apiKey: 'AIzaSyBinSnoYcLVV3e4NoSb0ZdrJmokC6RA960'
+    }),
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]

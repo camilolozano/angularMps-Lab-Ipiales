@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import { Marker } from './shared/struct-marker';
+import { MarkerService } from './shared/marker.service';
 
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
-  styleUrls: ['./map.component.css']
+  styleUrls: ['./map.component.css'],
+  providers: [MarkerService]
 })
 export class MapComponent {
   // Nivel de zoom
@@ -11,29 +14,12 @@ export class MapComponent {
   // Posicion
   lat = 0.8243084198983799;
   lng = -77.64051266116304;
-  // marcadores
-  markers: Marker[] = [
-    {
-      name: 'Compañia_1',
-      lat: 0.8242574632008068,
-      lng: -77.64157213372393,
-      draggable: true,
-    },
-    {
-      name: 'Compañia_2',
-      lat: 0.8241944378108004,
-      lng: -77.64157615703745,
-      draggable: true,
-    },
-    {
-      name: 'Compañia_3',
-      lat: 0.8240160893615913,
-      lng: -77.64217395437164,
-      draggable: true,
-    }
-  ];
 
-  constructor() { }
+  markers: Marker[];
+
+  constructor(markerService: MarkerService) {
+    this.markers = markerService.getPoints();
+  }
 
   clickedMarker(marker: Marker, index: number) {
     console.log(`clicked Marker ${marker.name} y el index ${index}`);
@@ -62,12 +48,4 @@ export class MapComponent {
     let newLat = $event.coords.lat;
     let newLng = $event.coords.lng;
   }
-}
-
-// Tipo de marcador
-interface Marker {
-  name?: string;
-  lat: number;
-  lng: number;
-  draggable: boolean;
 }
