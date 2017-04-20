@@ -1,0 +1,105 @@
+{
+  "points" : {
+    "-Ki2b2D7WroerXmrmNvj" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8262630994776045,
+      "lng" : -77.62669086456299,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bDjKjpp3sgEHp6jO" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8272071390936698,
+      "lng" : -77.64003753596626,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bETH_C9avgIZSS7E" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8233022478547389,
+      "lng" : -77.63158321315132,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bEiP3rj9wUNg4gdV" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8251474167200612,
+      "lng" : -77.64746189051948,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bEs99lUfhFWXmvF6" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8321847970775839,
+      "lng" : -77.64531612330757,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bF-XwAbG6TmfiOWI" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.832227707895026,
+      "lng" : -77.63081073695503,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bF5IQ1iwrZG4VlRZ" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8314553131097838,
+      "lng" : -77.62179851466499,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bFAQK1YgWuEpbsqe" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8227873168561086,
+      "lng" : -77.62059688502632,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bFGI0r_1l48pbku_" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8195260856564681,
+      "lng" : -77.63887882167182,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bFLA5hG9q7SeZduT" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8241175551332067,
+      "lng" : -77.65359878474555,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bFQ20dPi_IbwKbfC" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8311549373191666,
+      "lng" : -77.64977931910835,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bMag_W5UpJ_ByJXK" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8257481688619257,
+      "lng" : -77.64776229858398,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bgOte6NAZxyC57eJ" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8430412192700735,
+      "lng" : -77.65196800231934,
+      "name" : "Nombre 1"
+    },
+    "-Ki2bwSQoDreU7ozcmGG" : {
+      "draggable" : true,
+      "img" : "http://cdn.colombia.com/sdi/2013/03/19/28952ab5900f49a1b4483ec5f9822aa9.jpg",
+      "lat" : 0.8304254528337377,
+      "lng" : -77.65784740447998,
+      "name" : "Nombre 1"
+    }
+  },
+  "sites" : {
+    "name" : "cv"
+  }
+}
