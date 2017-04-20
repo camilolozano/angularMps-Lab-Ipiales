@@ -9,12 +9,11 @@
   [zoomControl]="false" 
   (mapClick)="mapClicked($event)">
   <sebm-google-map-marker
-    *ngFor="let m of markers; let i = index"
+    *ngFor="let m of items | async; let i = index"
     (markerClick)="clickedMarker(m, i)"
     [latitude]="m.lat"
     [longitude]="m.lng"
     [markerDraggable]="m.draggable"
-    (dragEnd)="markerDragEnd(m, $event)"
     >
     <sebm-google-map-info-window>
       <strong>{{m.name}}</strong>
@@ -22,3 +21,5 @@
 
   </sebm-google-map-marker>
 </sebm-google-map>
+<br>
+<br>

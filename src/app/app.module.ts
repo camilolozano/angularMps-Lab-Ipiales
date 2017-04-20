@@ -16,12 +16,12 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
 import { AngularFireModule } from 'angularfire2';
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyCZVjGfLAc_Wy5ecxZ3FS9s_os2Q9FtltQ',
-  authDomain: 'ipialesapp.firebaseapp.com',
-  databaseURL: 'https://ipialesapp.firebaseio.com',
-  projectId: 'ipialesapp',
-  storageBucket: 'ipialesapp.appspot.com',
-  messagingSenderId: '658712497572'
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: ''
 };
 
 @NgModule({
