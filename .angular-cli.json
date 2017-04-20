@@ -22,8 +22,8 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/materialize-css/bin/materialize.js"
+        //"../node_modules/jquery/dist/jquery.min.js",
+        //"../node_modules/materialize-css/bin/materialize.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
