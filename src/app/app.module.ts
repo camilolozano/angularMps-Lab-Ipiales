@@ -16,12 +16,12 @@ import { AgmCoreModule } from 'angular2-google-maps/core';
 import { AngularFireModule } from 'angularfire2';
 
 export const firebaseConfig = {
-  apiKey: '',
-  authDomain: '',
-  databaseURL: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: ''
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: ''
 };
 
 @NgModule({
